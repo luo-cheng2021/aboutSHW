@@ -309,7 +309,7 @@ struct workitem_info {
             double num_OPs = 0;
             void dump(ChromeTraceDumpper & dumpper) {
                 if (thr_cnt <= 0) return;
-                if (slice_id != 0 || sub_slice_id > 1) return;
+                //if (slice_id != 0 || sub_slice_id > 1) return;
                 std::stringstream ss;
                 std::stringstream ss_cat;
                 std::stringstream ss_pid;
